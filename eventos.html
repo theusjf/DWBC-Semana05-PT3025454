@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div align="right">
+    <table>
+      <tr>
+        <td><a href="index.html">HOME</a></td>
+        <td>|</td>
+        <td><a href="eventos.html">EVENTOS</a></td>
+        <td>|</td>
+        <td><a href="contato.html">CONTATO</a></td>
+        <td>|</td>
+        <td><a href="sobre.html">SOBRE</a></td>
+        <td>|</td>
+        <td><a href="entrar.html">ENTRAR</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <img src="fotos/Logo.jpg" alt="Logo IFSP" style="margin-top: 50px;">
+  <h1>Inscreva-se</h1>
+
+  <form>
+    <fieldset>
+      Evento
+      <select name="evento">
+        <option value="">Voe sem asas</option>
+        <option value="">Festa junina</option>
+        <option value="">Semana de tecnologia</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações de Acesso</legend>
+      <br>
+      Usuário <input type="text" name="usuario" required><br><br>
+      Senha <input type="password" name="senha" required><br><br>
+      Confirme a senha <input type="password" name="confirmeSenha" required>
+      <br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      Nome Completo <input type="text" name="nomeCompleto" required><br><br>
+      E-mail <input type="email" name="email" required><br><br>
+      Celular <input type="number" name="celular"> (99) 99999-9999<br><br>
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" value="masculino" name="sexo"> Masculino
+        <input type="radio" value="feminino" name="sexo"> Feminino
+      </fieldset>
+      <br>
+      Data de Nascimento <input type="date" name="dataNascimento"><br><br>
+      Cor Favorita <input type="color" name="corFavorita"><br><br>
+      Perfil no Github <input type="url" name="perfilGithub"><br><br>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Inscrever">
+    <input type="reset" value="Limpar">
+  </form>
+
+  <br><br>
+
+  <div id="rodape">
+    <br>
+    <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR" title="IFSP Facebook"><img src="fotos/facebook.png"
+        alt="" width="40" height="40"></a>
+    <br>
+    <br>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
+    (011) 2504-0100</br>
+  </div>
+</body>
+
+</html>
